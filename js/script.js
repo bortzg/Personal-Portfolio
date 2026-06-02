@@ -13,5 +13,5 @@ document.getElementById("contactForm").addEventListener("submit", function(event
         "!\nI will contact you at " + email + "."
     );
 //!Redirect to homepage after form submission
-    window.location.href = "homepage.html";
+    window.location.href = "index.html";
 });
