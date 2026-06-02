@@ -10,6 +10,7 @@ h1 {
     text-align: center;
 }
 
+
 nav {
     background-color: black;
     display: flex;
@@ -37,7 +38,7 @@ img {
     display: flex;
     justify-content: center;  
     align-items: center;
-    gap: 40px;
+    gap: px;
     flex-wrap: wrap;
     margin: 20px auto;
 }
