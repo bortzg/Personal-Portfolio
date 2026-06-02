@@ -5,13 +5,13 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     let firstName = document.getElementById("fname").value;
     let lastName = document.getElementById("lname").value;
     let email = document.getElementById("email").value;
-    
-//Message when form is submitted
+
+//!Message when form is submitted
     alert(
         "Thank you for messaging me, " +
         firstName + " " + lastName +
         "!\nI will contact you at " + email + "."
     );
-//Redirect to homepage after form submission
+//!Redirect to homepage after form submission
     window.location.href = "homepage.html";
 });
